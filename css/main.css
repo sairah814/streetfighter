@@ -1,0 +1,94 @@
+/* CSS reset
+(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+
+/* General styles
+(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+
+body {
+    background-color: black;
+}
+
+
+/* Header styles
+(all the styles inside the < header > or < nav > tags)
+*/
+
+
+/* Content styles
+(all the styles inside the < sections > or < aside > tags)
+*/
+
+.main {
+    min-height: 500px;
+    /*padding-top: 35%;*/
+    margin-top: 9%;
+    background-color: white;
+    padding-left: 8%;
+}
+
+.ryu-container {
+    float: left;
+}
+
+.ryu-still,
+.ryu-throwing,
+.ryu-ready,
+.ryu-cool {
+    display: block;
+    width: 659px;
+    height: 494px;
+    background-repeat: no-repeat;
+}
+
+.ryu-still {
+    background-image: url("../images/ryu-standing-still.png");
+}
+
+.ryu-ready {
+    background-image: url("../images/ryu-ready-position.gif");
+}
+
+.ryu-throwing {
+    background-image: url("../images/ryu-throwing-hadouken.png");
+}
+
+.ryu-cool {
+    background-image: url("../images/ryu-cool.gif");
+}
+
+.instructions {
+    padding-top: 10%;
+}
+
+
+/* Footer styles
+(all the styles inside the < footer > tag)
+*/
+
+
+/* Responsive styles
+(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/
+
+Status API Training Shop Blog About Pricing
